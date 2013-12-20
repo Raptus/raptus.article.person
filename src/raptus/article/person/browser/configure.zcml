@@ -1,0 +1,22 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="raptus.article">
+
+    <include file="viewlets.zcml" />
+    <include file="portlets.zcml" />
+
+    <browser:page
+        for="..content.interfaces.IPerson"
+        layer=".interfaces.IThemeSpecific"
+        name="view"
+        class=".person.View"
+        permission="zope2.View"
+        />
+
+    <browser:resource
+        name="person_icon.png"
+        image="person_icon.png"
+        />
+
+</configure>

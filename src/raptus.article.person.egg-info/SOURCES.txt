@@ -1,0 +1,13 @@
+README.txt
+setup.py
+src/raptus/__init__.py
+src/raptus.article.person.egg-info/PKG-INFO
+src/raptus.article.person.egg-info/SOURCES.txt
+src/raptus.article.person.egg-info/dependency_links.txt
+src/raptus.article.person.egg-info/entry_points.txt
+src/raptus.article.person.egg-info/namespace_packages.txt
+src/raptus.article.person.egg-info/not-zip-safe
+src/raptus.article.person.egg-info/requires.txt
+src/raptus.article.person.egg-info/top_level.txt
+src/raptus/article/__init__.py
+src/raptus/article/person/__init__.py
