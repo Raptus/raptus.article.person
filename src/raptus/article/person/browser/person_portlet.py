@@ -10,8 +10,8 @@ from Products.Five.browser.pagetemplatefile import ViewPageTemplateFile
 
 from raptus.article.teaser.interfaces import ITeaser
 
-from bbz.theme import _
-from bbz.theme.content.interfaces import IPerson
+from raptus.article.person import _
+from raptus.person.interfaces import IPerson
 
 
 class IPersonPortlet(IPortletDataProvider):

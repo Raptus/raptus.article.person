@@ -1,4 +1,4 @@
-<div i18n:domain="bbz.article"
+<div i18n:domain="raptus.article"
      tal:condition="view/persons"
      tal:attributes="class string:listing listing-person-portlet">
   <div class="wrapped">

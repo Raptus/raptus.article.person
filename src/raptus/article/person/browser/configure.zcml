@@ -3,12 +3,10 @@
     xmlns:browser="http://namespaces.zope.org/browser"
     i18n_domain="raptus.article">
 
-    <include file="viewlets.zcml" />
     <include file="portlets.zcml" />
 
     <browser:page
-        for="..content.interfaces.IPerson"
-        layer=".interfaces.IThemeSpecific"
+        for="raptus.person.interfaces.IPerson"
         name="view"
         class=".person.View"
         permission="zope2.View"
