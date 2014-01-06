@@ -3,18 +3,6 @@
     xmlns:browser="http://namespaces.zope.org/browser"
     i18n_domain="raptus.article">
 
-    <include file="portlets.zcml" />
 
-    <browser:page
-        for="raptus.person.interfaces.IPerson"
-        name="view"
-        class=".person.View"
-        permission="zope2.View"
-        />
-
-    <browser:resource
-        name="person_icon.png"
-        image="person_icon.png"
-        />
 
 </configure>
