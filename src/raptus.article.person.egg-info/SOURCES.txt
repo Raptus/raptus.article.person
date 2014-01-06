@@ -22,7 +22,3 @@ src/raptus/article/person/browser/__init__.py
 src/raptus/article/person/browser/configure.zcml
 src/raptus/article/person/browser/person.pt
 src/raptus/article/person/browser/person.py
-src/raptus/article/person/browser/person_icon.png
-src/raptus/article/person/browser/person_portlet.pt
-src/raptus/article/person/browser/person_portlet.py
-src/raptus/article/person/browser/portlets.zcml
